@@ -1,4 +1,4 @@
-import { w3 } from '.././w3.js';
+import { w3 } from '../.././w3.js';
 import { compLogin } from '.././compLogin/compLogin.js';
 
 //constantes
@@ -17,8 +17,6 @@ class compNavegacionClass {
       // aquí va todo el código callback
       w3.displayObject(obj.nombre, obj);
       compLogin.implementar();
-      compLogin.subirCSS();
-      compLogin.incluirServicio();
     });
   }
 }
